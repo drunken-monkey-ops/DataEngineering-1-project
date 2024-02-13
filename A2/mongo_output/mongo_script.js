@@ -1,4 +1,4 @@
-db.tweet.aggregate([
+  db.tweet.aggregate([
     {
         $match: {
             "text": {
